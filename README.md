@@ -1,12 +1,7 @@
-# ⏱️ TCX-tidsforskyvning
+# TCX-tidsforskyvning
 
-⚡ **Enkel løsning for å justere starttid i TCX-filer fra treningsklokker**
+Noen ganger viser treningsklokker feil tidspunkt for start av aktivitet – for eksempel etter tomt batteri uten synkronisering. Da lagres økta med feil starttid og vises feil i tjenester som Strava. Dette er en enkel løsning for å justere starttid i TCX-filer.
 
-## 📌 Hva er dette?
-
-Noen ganger viser treningsklokka feil tidspunkt – for eksempel etter tomt batteri uten synkronisering. Da lagres økta med feil starttid og vises feil i tjenester som Strava.
-
-Mens det finnes gode verktøy for FIT-filer, er det få som fungerer bra for TCX-formatet. Denne applikasjonen lar deg enkelt justere starttidspunktet i en .tcx-fil slik at hele aktiviteten forskyves korrekt i tid.
 
 ## 🛠️ Funksjoner
 
@@ -36,11 +31,10 @@ Mens det finnes gode verktøy for FIT-filer, er det få som fungerer bra for TCX
 
 3. **Kjør skriptet:**
    ```bash
-    python tcx_time_shifter.py
+    python tcx-starttime-editor.py
 
-4. **Velg TCX-filen du ønsker å korrigere**
+4. **Velg TCX-fil**
 
-5. **Ferdig!**
+   Du skal få opp en meny får å velge fil du ønsker å korrigere. En ny fil genereres automatisk i samme mappe, med _newtime lagt til filnavnet.
+   Eksempel: originalfil.tcx  →  originalfil_newtime.tcx
 
-    En ny fil genereres automatisk i samme mappe, med _newtime lagt til filnavnet. Eksempel:
-    originalfil.tcx  →  originalfil_newtime.tcx
