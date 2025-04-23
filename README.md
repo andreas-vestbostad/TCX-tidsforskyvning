@@ -35,6 +35,5 @@ Noen ganger viser treningsklokker feil tidspunkt for start av aktivitet – for 
 
 4. **Velg TCX-fil**
 
-   Du skal få opp en meny får å velge fil du ønsker å korrigere. En ny fil genereres automatisk i samme mappe, med _newtime lagt til filnavnet.
-   Eksempel: originalfil.tcx  →  originalfil_newtime.tcx
+   Du skal få opp en filvelger. En ny fil genereres automatisk i samme mappe, med _newtime lagt til filnavnet.
 
